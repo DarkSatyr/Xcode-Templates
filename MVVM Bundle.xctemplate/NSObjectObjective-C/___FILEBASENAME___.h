@@ -6,7 +6,6 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ViewController : UIViewController
 
-+ (___FILEBASENAMEASIDENTIFIER___ViewController *)get___FILEBASENAMEASIDENTIFIER___ViewController;
 - (instancetype)init NS_UNAVAILABLE;
 
 @property (nonatomic) ___FILEBASENAME___ViewModel *viewModel;
