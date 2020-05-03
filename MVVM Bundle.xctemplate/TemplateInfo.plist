@@ -17,73 +17,21 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Options</key>
-	<array>
-		<dict>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Class:</string>
-			<key>Description</key>
-			<string>The name of the class to create</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>cocoaTouchSubclass</string>
-			<key>Required</key>
-			<string>NO</string>
-			<key>Name</key>
-			<string>Subclass of:</string>
-			<key>Description</key>
-			<string>What class to subclass in the new file</string>
-			<key>Type</key>
-			<string>class</string>
-			<key>Default</key>
-			<string>NSObject</string>
-			<key>FallbackHeader</key>
-			<string>#import &lt;Foundation/Foundation.h&gt;</string>
-			<key>Suffixes</key>
-			<dict>
-				<key>NSObject</key>
-				<string>ViewModel</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>languageChoice</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Language:</string>
-			<key>Description</key>
-			<string>The implementation language</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>Objective-C</string>
-			<key>Values</key>
-			<array>
-				<string>Objective-C</string>
-			</array>
-			<key>MainTemplateFiles</key>
-			<dict>
-				<key>Objective-C</key>
-				<string>___FILEBASENAME___.m</string>
-			</dict>
-			<key>AllowedTypes</key>
-			<dict>
-				<key>Objective-C</key>
-				<array>
-					<string>public.objective-c-source</string>
-					<string>public.objective-c-plus-plus-source</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
+  <array>
+    <dict>
+      <key>Identifier</key>
+      <string>productName</string>
+      <key>Required</key>
+      <true/>
+      <key>Name</key>
+      <string>View:</string>
+      <key>Description</key>
+      <string>The name of the View and ViewModel to create</string>
+      <key>Type</key>
+      <string>text</string>
+      <key>Default</key>
+      <string>MyView</string>
+    </dict>
+  </array>
 </dict>
 </plist>

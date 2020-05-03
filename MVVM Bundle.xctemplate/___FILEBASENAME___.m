@@ -11,6 +11,13 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___ViewController
 
++ (___FILEBASENAMEASIDENTIFIER___ViewController *)get___FILEBASENAMEASIDENTIFIER___ViewController {
+
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"___FILEBASENAMEASIDENTIFIER___ViewController" bundle:nil];
+    ___FILEBASENAMEASIDENTIFIER___ViewController *controller = [sb instantiateInitialViewController];
+    return controller;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
