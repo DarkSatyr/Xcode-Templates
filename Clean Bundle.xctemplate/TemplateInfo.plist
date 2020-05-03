@@ -11,7 +11,7 @@
 	<key>SortOrder</key>
 	<string>99</string>
 	<key>DefaultCompletionName</key>
-	<string>Objectt</string>
+	<string>Object</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -24,13 +24,11 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Name:</string>
+			<string>Base Name:</string>
 			<key>Description</key>
 			<string>The name of the Interactor, Repository, Network Service</string>
 			<key>Type</key>
 			<string>text</string>
-			<key>Default</key>
-			<string>MyView</string>
 		</dict>
 	</array>
 </dict>

@@ -8,8 +8,6 @@
 	<string>MVVM Bundle</string>
 	<key>Summary</key>
 	<string>View Model, View Cintroller classes</string>
-	<key>SortOrder</key>
-	<string>99</string>
 	<key>DefaultCompletionName</key>
 	<string>View</string>
 	<key>Platforms</key>
@@ -24,13 +22,27 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Name:</string>
+			<string>Base Name:</string>
 			<key>Description</key>
 			<string>The name of the View Controller, ViewModel to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
 			<string>MyView</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>interactorType</string>
+			<key>Required</key>
+			<false/>
+			<key>Name</key>
+			<string>Interactor:</string>
+			<key>Description</key>
+			<string>Default interactor to use</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>UserProfileInteractor</string>
 		</dict>
 	</array>
 </dict>

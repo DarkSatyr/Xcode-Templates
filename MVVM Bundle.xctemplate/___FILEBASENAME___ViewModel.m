@@ -3,13 +3,13 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-@property (nonatomic) <#PLACE_HOLDER#> *interactor;
+@property (nonatomic) ___VARIABLE_interactorType:identifier___ *interactor;
 
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (instancetype)initWithInteractor:(<#PLACE_HOLDER#> *)interactor {
+- (instancetype)initWithInteractor:(___VARIABLE_interactorType:identifier___ *)interactor {
     
     self = [super init];
     if (self != nil) {
