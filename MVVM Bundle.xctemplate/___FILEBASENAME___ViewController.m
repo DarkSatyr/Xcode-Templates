@@ -1,22 +1,15 @@
 //___FILEHEADER___
 
-#import "___FILEBASENAME___ViewController.h"
-#import "___FILEBASENAME___ViewModel.h"
+#import "___FILEBASENAMEASIDENTIFIER___.h"
+#import "___VARIABLE_productName:identifier___ViewModel.h"
 #import "ViewModelSubscriptionHelper.h"
 #import "CEXMessageBanner.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ViewController ()
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 @end
 
-@implementation ___FILEBASENAMEASIDENTIFIER___ViewController
-
-+ (___FILEBASENAMEASIDENTIFIER___ViewController *)get___FILEBASENAMEASIDENTIFIER___ViewController {
-
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"___FILEBASENAMEASIDENTIFIER___ViewController" bundle:nil];
-    ___FILEBASENAMEASIDENTIFIER___ViewController *controller = [sb instantiateInitialViewController];
-    return controller;
-}
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,7 +7,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class CexNetworkManager, SocketAPI;
 
-@interface ___FILEBASENAME___ : BaseNetworkService
+@interface ___FILEBASENAMEASIDENTIFIER___ : BaseNetworkService
 
 @end
 
