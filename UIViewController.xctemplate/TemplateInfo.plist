@@ -5,11 +5,11 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>MVVM Bundle</string>
+	<string>UIViewController</string>
 	<key>Summary</key>
-	<string>View Model, View Controller classes</string>
+	<string>View Controller class, Storyboard class</string>
 	<key>DefaultCompletionName</key>
-	<string>View</string>
+	<string>ViewController</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -22,27 +22,13 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Base Name:</string>
+			<string>Name:</string>
 			<key>Description</key>
-			<string>The name of the View Controller, ViewModel to create</string>
+			<string>The name of the View Controller, Storyboard file</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
-			<string>MyView</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>interactorType</string>
-			<key>Required</key>
-			<false/>
-			<key>Name</key>
-			<string>Interactor:</string>
-			<key>Description</key>
-			<string>Default interactor to use</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>Default</key>
-			<string>UserProfileInteractor</string>
+			<string>ViewController</string>
 		</dict>
 	</array>
 </dict>
