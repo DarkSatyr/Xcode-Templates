@@ -13,6 +13,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self configureUI];
 }
 
 #pragma mark - Subscription Listener
@@ -57,6 +58,12 @@
             @strongify_r(self);
             [CEXMessageBanner showErrorBannerWithText:error.localizedDescription.localized];
         }];
+}
+
+#pragma mark - UI
+
+- (void)configureUI {
+    
 }
 
 @end
