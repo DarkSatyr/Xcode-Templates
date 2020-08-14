@@ -6,6 +6,8 @@ import ReactorKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, StoryboardView {
     
+    var coordinator: <#coordinator#>?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         subscribe()
