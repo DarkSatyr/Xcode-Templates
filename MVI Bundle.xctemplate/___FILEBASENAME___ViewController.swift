@@ -5,8 +5,6 @@ import RxSwift
 import ReactorKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, StoryboardView {
-
-    var disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +16,8 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, Storyboard
         cex_observeLoading(reactor.state.map { $0.loading })
     }
 
-    func subscribe() {
+    private func subscribe() {
     }
+    
+    var disposeBag = DisposeBag()
 }
