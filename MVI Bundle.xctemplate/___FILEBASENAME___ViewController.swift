@@ -2,8 +2,9 @@
 
 import UIKit
 import RxSwift
+import ReactorKit
 
-class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded {
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, StoryboardView {
 
     var disposeBag = DisposeBag()
     
@@ -13,6 +14,8 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded {
     }
 
     func bind(reactor: ___VARIABLE_productName:identifier___Reactor) {
+        
+        cex_observeLoading(reactor.state.map { $0.loading })
     }
 
     func subscribe() {
