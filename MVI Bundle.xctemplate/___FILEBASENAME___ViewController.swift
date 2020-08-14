@@ -10,6 +10,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, Storyboard
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureUI()
         subscribe()
     }
 
@@ -19,6 +20,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, Storyboard
     }
 
     private func subscribe() {
+    }
+    
+    private func configureUI() {
+        
     }
     
     var disposeBag = DisposeBag()
