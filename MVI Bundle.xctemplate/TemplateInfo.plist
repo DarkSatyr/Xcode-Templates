@@ -44,6 +44,20 @@
 			<key>Default</key>
 			<string></string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>coordinatorType</string>
+			<key>Required</key>
+			<false/>
+			<key>Name</key>
+			<string>Coordinator:</string>
+			<key>Description</key>
+			<string>Default Coordinator to use</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string></string>
+		</dict>
 	</array>
 </dict>
 </plist>

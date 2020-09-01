@@ -6,7 +6,7 @@ import ReactorKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, Storyboarded, StoryboardView {
     
-    var coordinator: <#coordinator#>?
+    var coordinator: ___VARIABLE_coordinatorType:identifier___Coordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
