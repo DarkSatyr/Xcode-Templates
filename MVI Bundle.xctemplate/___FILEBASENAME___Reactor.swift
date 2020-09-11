@@ -41,5 +41,9 @@ class ___FILEBASENAMEASIDENTIFIER___: Reactor {
     init(useCase: ___VARIABLE_useCaseType:identifier___UseCase) {
         self.useCase = useCase
     }
+    
+    private func reportLoading(_ observable: Observable<Mutation>) -> Observable<Mutation> {
+        cex_reportLoading(observable, before: .setLoading(true), after: .setLoading(false))
+    }
 }
 
